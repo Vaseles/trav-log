@@ -24,12 +24,12 @@ function Header() {
     <header>
         <div className="contaiener">
             <div className="header__item">
-                <a href="/trav-log//" className="header__logo">
+                <a href="/trav-log/" className="header__logo">
                     <img src={tree} alt="" />
                     <h2>TravLog</h2>
                 </a>
                 <div className="header__menu">
-                    <a href="https://vaseles.github.io/trav-log/">Home</a>
+                    <a href="/trav-log/">Home</a>
                     <a href="/trav-log/about">About</a>
                     <a href="/trav-log/galery">Galery</a>
                     <a href="/trav-log/blog">Blog</a>
