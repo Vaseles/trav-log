@@ -1,0 +1,42 @@
+.collection {
+    margin: 3rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    h1 {
+        letter-spacing: 1rem;
+    }
+
+    .collection__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 3% 0;
+    }
+}
+
+//post
+.collection__article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 42vw;
+    width: 100%;
+    margin: 1%;
+    padding: 2% ;
+    
+    background-color: rgb(254,254,254,.1);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 7px black;
+
+    &:hover {
+        background-color: rgb(254,254,254,.3);
+        cursor: pointer;
+    }
+}

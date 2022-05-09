@@ -1,0 +1,50 @@
+.galery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .pin {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        position: relative;
+        border-radius: 1rem;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            max-width: 400px;
+            position: relative;
+            border-radius: 1rem;
+        }
+
+        &:hover .pin__content {
+            opacity: 1;
+        }
+
+        &__content {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 5%;
+            bottom: 0;
+            align-items: flex-end;
+            background: rgb(255,0,86, .2);background: linear-gradient(145deg, rgba(255,0,86,.3) 0%, rgba(255,209,55,.2) 50%, rgba(0,116,255,.3) 100%);
+            opacity: 0;
+            border-radius: 1rem;
+
+            h3 {
+                font-size: $size;
+                cursor: pointer;
+            }
+            p {
+                cursor: pointer;
+            }
+        }
+    }
+}
