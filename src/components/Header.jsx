@@ -29,7 +29,7 @@ function Header() {
                     <h2>TravLog</h2>
                 </a>
                 <div className="header__menu">
-                    <a href="/trav-log/">Home</a>
+                    <a href="https://vaseles.github.io/trav-log/">Home</a>
                     <a href="/trav-log/about">About</a>
                     <a href="/trav-log/galery">Galery</a>
                     <a href="/trav-log/blog">Blog</a>
