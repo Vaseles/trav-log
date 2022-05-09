@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//trav-log/static/css/main.073c9b0a.css",
-    "main.js": "//trav-log/static/js/main.f2813480.js",
-    "static/js/787.f409779d.chunk.js": "//trav-log/static/js/787.f409779d.chunk.js",
-    "static/media/logo.svg": "//trav-log/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "//trav-log/index.html",
-    "main.073c9b0a.css.map": "//trav-log/static/css/main.073c9b0a.css.map",
-    "main.f2813480.js.map": "//trav-log/static/js/main.f2813480.js.map",
-    "787.f409779d.chunk.js.map": "//trav-log/static/js/787.f409779d.chunk.js.map"
+    "main.css": "/trav-log/static/css/main.073c9b0a.css",
+    "main.js": "/trav-log/static/js/main.d87ddb65.js",
+    "static/js/787.f409779d.chunk.js": "/trav-log/static/js/787.f409779d.chunk.js",
+    "static/media/logo.svg": "/trav-log/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/trav-log/index.html",
+    "main.073c9b0a.css.map": "/trav-log/static/css/main.073c9b0a.css.map",
+    "main.d87ddb65.js.map": "/trav-log/static/js/main.d87ddb65.js.map",
+    "787.f409779d.chunk.js.map": "/trav-log/static/js/787.f409779d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f2813480.js"
+    "static/js/main.d87ddb65.js"
   ]
 }
