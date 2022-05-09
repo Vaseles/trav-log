@@ -85,8 +85,8 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            min-width: 50vh;
-            min-height: 50vh;
+            min-width: 50%;
+            min-height: 50%;
             filter: blur(100px);
             background-attachment: fixed;
             background-position: center;
@@ -208,5 +208,32 @@
             position: relative;
             right: 20%;
         }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .about__menu {
+        display: none;
+        visibility:hidden;
+        background-color: rgb(0,0,0,0);
+        color: rgb(0,0,0,0);
+        opacity: 0;
+    }
+    .menu {
+        display: none;
+    }
+
+    //for link
+    .right {
+        position: relative;
+        left: 0%;
+    }
+    .left {
+        position: relative;
+        right: 0%;
+    }
+
+    .whatiused{
+        display: none;
     }
 }

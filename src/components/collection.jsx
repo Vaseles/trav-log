@@ -33,7 +33,7 @@ function Collection() {
   return (
     <div className='collection'>
         <h1>Posts</h1>
-        <p className='mini'>I took this from https://jsonplaceholder.typicode.com/posts</p>
+        <p className='mini none' >I took this from https://jsonplaceholder.typicode.com/posts</p>
         <div className="container">
           <div className="collection__item">
 

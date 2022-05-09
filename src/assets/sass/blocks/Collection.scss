@@ -30,6 +30,7 @@
     width: 100%;
     margin: 1%;
     padding: 2% ;
+    min-width: 30vh;
     
     background-color: rgb(254,254,254,.1);
     border-radius: 1rem;
@@ -38,5 +39,16 @@
     &:hover {
         background-color: rgb(254,254,254,.3);
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .collection__article {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .none {
+        display: none;
     }
 }

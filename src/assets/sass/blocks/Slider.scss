@@ -86,3 +86,9 @@
 .swiper-pagination-bullet-active {
     background: rgb(255,0,86);background: linear-gradient(145deg, rgba(255,0,86,1) 0%, rgba(255,209,55,1) 50%, rgba(0,116,255,1) 100%);
 }
+
+@media screen and (max-width: $mobile) {
+    .slider {
+        display: none;
+    }
+}
