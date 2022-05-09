@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+<p style = "text-align: center">______________</p>
+<br/>
+![image](https://user-images.githubusercontent.com/82625479/167349968-eab511e0-96ad-4538-b9d8-190608d6438d.png)
+<br/>
+<p style = "text-align: center">______________</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
