@@ -24,15 +24,15 @@ function Header() {
     <header>
         <div className="contaiener">
             <div className="header__item">
-                <a href="/" className="header__logo">
+                <a href="/trav-log//" className="header__logo">
                     <img src={tree} alt="" />
                     <h2>TravLog</h2>
                 </a>
                 <div className="header__menu">
-                    <a href="/">Home</a>
-                    <a href="/about">About</a>
-                    <a href="/galery">Galery</a>
-                    <a href="/blog">Blog</a>
+                    <a href="/trav-log/">Home</a>
+                    <a href="/trav-log/about">About</a>
+                    <a href="/trav-log/galery">Galery</a>
+                    <a href="/trav-log/blog">Blog</a>
                 </div>
                 <div className="header__social">
                     <a href="/">
@@ -57,10 +57,10 @@ function Header() {
 
     <BrowserRouter>
         <Routes>
-            <Route path = '/' element = {<Home />}></Route>
-            <Route path = '/about' element = {<About/>}></Route>
-            <Route path = '/blog' element = {<Blog />}></Route>
-            <Route path='/galery' element = {<Galery/>}></Route>
+            <Route path = '/trav-log/' element = {<Home />}></Route>
+            <Route path = '/trav-log/about' element = {<About/>}></Route>
+            <Route path = '/trav-log/blog' element = {<Blog />}></Route>
+            <Route path='/trav-log/galery' element = {<Galery/>}></Route>
         </Routes>
     </BrowserRouter>
     </>
